@@ -17,4 +17,4 @@ If we assume the dots are vertexes on a graph and the connections between the do
 
 In order to make things bit harder, I chose to implement this without using recursion.
 
-The Graph and Edge implementaion are the most basic ones (I didn't implement deletion, for example) and have the bare functionality for answering this riddle.
+The Graph and Edge implementaions are the most basic ones (I didn't implement deletion, for example) and have the bare functionality for answering this riddle.
