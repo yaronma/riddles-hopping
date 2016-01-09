@@ -1,4 +1,4 @@
-package com.algorithms.combinatorical;
+package com.algorithms.riddlehopping;
 
 import java.util.ArrayList;
 import java.util.HashMap;

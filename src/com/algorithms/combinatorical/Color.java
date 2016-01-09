@@ -1,4 +1,4 @@
-package com.algorithms.combinatorical;
+package com.algorithms.riddlehopping;
 
 public enum Color {
 
