@@ -18,3 +18,11 @@ If we assume the dots are vertexes on a graph and the connections between the do
 In order to make things bit harder, I chose to implement this without using recursion.
 
 The Graph and Edge implementaions are the most basic ones (I didn't implement deletion, for example) and have the bare functionality for answering this riddle.
+
+###The output
+
+```
+There are 354 different paths
+Shortest path is: 9 => [1, 3, 2, 4, 9, 16, 22, 21, 23]
+Longest path is: 21 => [1, 3, 2, 4, 6, 5, 7, 10, 8, 12, 13, 14, 15, 11, 9, 16, 19, 20, 18, 21, 23]
+```
