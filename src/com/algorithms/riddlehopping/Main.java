@@ -65,6 +65,7 @@ public class Main {
 			node2.add(node1);
 		}
 
+		// Mark our source and destination 
 		Integer from = 1;
 		Integer to = 23;
 
@@ -75,6 +76,21 @@ public class Main {
 			return;
 		}
 
+		// Analyze and print the results 
+		List<Integer> shortest = result.get(0);
+		List<Integer> longest = result.get(0);
+		
+		for (List<Integer> list : result) {
+			if (list.size() > longest.size()) {
+				longest = list;
+			}
+
+			if (list.size() < shortest.size()) {
+				shortest = list;
+			}
+		}
+
+		
 		System.out.println("There are " + result.size() + " different paths");
 
 		System.out.print("Shortest path is: ");
