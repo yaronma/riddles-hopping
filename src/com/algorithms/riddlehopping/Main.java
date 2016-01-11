@@ -78,12 +78,25 @@ public class Main {
 		System.out.println("There are " + result.size() + " different paths");
 
 		System.out.print("Shortest path is: ");
+		System.out.print(shortest.size());
+		System.out.print(" => ");
+		System.out.println(shortest);
+		
+		System.out.print("Longest path is: ");
+		System.out.print(longest.size());
+		System.out.print(" => ");
+		System.out.println(longest);
+		
+		/*
+		// For Java 8 Enthusiasts - use the following code instead
+		System.out.print("Shortest path is: ");
 		System.out.println(result.stream().map(List::size).min(Integer::compare).get());
 
 		System.out.print("Longest path is: ");
 		System.out.println(result.stream().map(List::size).max(Integer::compare).get());
 
 		System.out.println(result);
+		*/
 	}
 
 }
